@@ -34,7 +34,7 @@
 
   Steps <br/>
     1. Sort every edges of graph in non-descending order <br/>
-    2. Select the smalles edge and check whether it forms a cycle with the spanning tree. If not, include the edge <br/>
+    2. Select the least weighted edge and check whether it forms a cycle with the spanning tree. If not, include the edge <br/>
     3. Repeat the previous step untill there exists (V-1) edges in the spanning tree <br/>
     
     
@@ -45,8 +45,10 @@
   - Dijkstra's Algorithm is a dynamic programming algorithm in graph theory for finding the shortest paths between nodes in a graph
 
   Steps <br/>
-    1. Sort every edges of graph in non-descending order <br/>
-    2. Select the smalles edge and check whether it forms a cycle with the spanning tree. If not, include the edge <br/>
-    3. Repeat the previous step untill there exists (V-1) edges in the spanning tree <br/>
+    1. Calculate the each distance from the start node to the destination <br/>
+    2. Select the least weighted edge and set the destination <br/>
+    3. Calculate the shortest path in consideration of the previous node and update the least weighted edge 
+    4. Repeat the process unitl reaching (N-1) node 
+   
     
     
