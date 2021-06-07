@@ -19,10 +19,10 @@
 
   ![img1 daumcdn](https://user-images.githubusercontent.com/35610628/120975276-ff360f00-c7ab-11eb-8507-51fb6df21078.png)
   
-    - Kosaraju's Algorithm is a DFS based algorithm used to find Strongly Connected Components in a graph
-    
-    Steps
-      1. Traverse through the original graph using DFS
-      2. Reverse the original graph using an adjacency list 
-      3. Traverse through the reversed graph using DFS, when DFS-traversal if finisehd, all nodes visited will form SCC
+  - Kosaraju's Algorithm is a DFS based algorithm used to find Strongly Connected Components in a graph
+
+  Steps
+    1. Traverse through the original graph using DFS
+    2. Reverse the original graph using an adjacency list 
+    3. Traverse through the reversed graph using DFS, when DFS-traversal if finisehd, all nodes visited will form SCC
 
